@@ -7,18 +7,18 @@
 	memset(base, 0, size)
 
 //Language accepted
-#define OPEN_BRACKET		'{'
-#define OPEN_ROUND			'('
-#define OPEN_SQUARE			'['
-#define ADD					'+'
-#define MINUS				'-'
-#define CLOSE_BRACKET		'}'
-#define CLOSE_ROUND			')'
-#define CLOSE_SQUARE		']'
-#define POINT				'.'
-#define MUL					'*'
-#define DEV					'/'
-#define SPACE				' '
+#define OPEN_BRACKET                '{'
+#define OPEN_ROUND                  '('
+#define OPEN_SQUARE                 '['
+#define ADD                         '+'
+#define MINUS                       '-'
+#define CLOSE_BRACKET               '}'
+#define CLOSE_ROUND                 ')'
+#define CLOSE_SQUARE                ']'
+#define POINT                       '.'
+#define MUL                         '*'
+#define DEV                         '/'
+#define SPACE                       ' '
 
 //States of autome
 typedef enum _states
@@ -36,7 +36,7 @@ typedef enum _states
 	close_bracket,		//F
 	close_round,		//F
 	close_square,		//F
-	decimal_cypher,		//F,
+	decimal_cypher,		//F
 	error_state
 }states;
 
