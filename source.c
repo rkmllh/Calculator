@@ -100,6 +100,7 @@ int main(int argc, char** argv)
 		&& my_state != close_bracket
 		&& my_state != close_round
 		&& my_state != close_square
+	    	&& my_state != decimal_cypher
 		)
 		printf("[-]Syntax error.\n");
 	else
